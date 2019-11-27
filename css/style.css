@@ -1,0 +1,526 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+.header{
+    padding-bottom: 20px;
+    background: url(../img/bright-1851267_1920.jpg) ;
+    background-position: center center ;
+  
+  /* Фоновое изображение не повторяется */
+  background-repeat: no-repeat;
+  
+  /* Фоновое изображение зафиксировано в окне просмотра, поэтому оно не смещается, когда высота контента больше высоты изображения */
+  background-attachment: fixed;
+  
+  /* Вот что позволяет фоновому изображению подстраиваться под размер контейнера */
+  background-size: cover;
+  
+  /* Устанавливает фоновый цвет, который будет отображаться, пока загружается фоновое изображение */
+  background-color: #464646;
+
+    text-align: center;
+    
+}
+.header-menu{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-logo{
+    text-decoration: none;
+    color: rgb(2, 247, 63);
+    font-family: Ubuntu;
+    font-size: 40px;
+    font-weight: 700;
+}
+.menu-phone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.phone{
+    color: rgb(123, 250, 39);
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-weight: 500;
+    cursor:pointer;
+}
+.phone:hover{
+    color:orangered;
+}
+.header-text{
+    margin-top: 160px;
+    font-family: Ubuntu;
+    font-size: 52px;
+    font-weight: 700;
+    color: #fff;
+}
+.header-text_imp{
+    margin-top: 28px;
+    font-family: Ubuntu;
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+}
+.button-block{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.btn{
+    margin-bottom: 140px;
+    color: #fff;
+    font-family: "Montserrat - Black";
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 25px;
+    background-color: #58fa18;
+    padding: 14px 50px 15px 50px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: all 0.6s ease;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color:orangered;
+}
+.advantages{
+    background: rgba(78,190,254,1);
+    background: -moz-linear-gradient(left, rgba(78,190,254,1) 0%, rgba(55,143,217,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(78,190,254,1)), color-stop(100%, rgba(55,143,217,1)));
+    background: -webkit-linear-gradient(left, rgba(78,190,254,1) 0%, rgba(55,143,217,1) 100%);
+    background: -o-linear-gradient(left, rgba(78,190,254,1) 0%, rgba(55,143,217,1) 100%);
+    background: -ms-linear-gradient(left, rgba(78,190,254,1) 0%, rgba(55,143,217,1) 100%);
+    background: linear-gradient(to right, rgba(78,190,254,1) 0%, rgba(55,143,217,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ebefe', endColorstr='#378fd9', GradientType=1 );
+
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color:red;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.adv-blocks{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+/* .adv-block{
+   flex-basis: 25%;
+} */
+.adv-block img{
+    width: 110px;
+    height: 100px;
+    
+}
+.adv-title{
+    color: #fff;
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.adv-imp{
+    color: #fff;
+    padding-top: 50px;
+    font-size: 30px;
+    font-weight: 700;
+}
+.adv-blocks{
+    padding-top: 60px;
+}
+.adv-text{
+    padding-top: 31px;
+    color: #201b2d;
+    font-size: 19px;
+    font-weight: 700;
+    color: #fff;
+}
+.great{
+    color: rgba(2, 122, 12, 0.856);
+}
+.consulation{
+    background: url(../img/door-3299119_1920.jpg);
+    background-position: center center;
+  
+  /* Фоновое изображение не повторяется */
+  background-repeat: no-repeat;
+  
+  /* Фоновое изображение зафиксировано в окне просмотра, поэтому оно не смещается, когда высота контента больше высоты изображения */
+  background-attachment: fixed;
+  
+  /* Вот что позволяет фоновому изображению подстраиваться под размер контейнера */
+  background-size: cover;
+  
+  /* Устанавливает фоновый цвет, который будет отображаться, пока загружается фоновое изображение */
+  background-color: #464646;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background-color: grey;
+    text-align: center;
+}
+
+.cons-text{
+    color: rgba(2, 122, 12, 0.856);
+    font-size: 52px;
+    font-weight: 700;
+}
+.cons-text_imp{
+    color: rgba(2, 122, 12, 0.856);
+    padding-top: 50px;
+    font-size: 30px;
+    font-weight: 700;
+}
+.consulation-form{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+input{
+    width: 445px;
+    height: 56px;
+    margin-top: 17px;
+    font-size: 28px;
+    border-radius: 8px;
+    background-color: #fff;
+    border: none;
+    letter-spacing: 0.1rem;
+    border-bottom: 3px solid  rgba(2, 122, 12, 0.856);;
+    color: rgba(2, 122, 12, 0.856);
+    text-align: center;
+    color:black;
+}
+.cons-btn{
+    margin-top: 40px;
+    color: #fff;
+    font-family: "Montserrat - Black";
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 16px;
+    background-color: rgba(2, 122, 12, 0.856);
+    padding: 14px 20px 15px 20px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: rgba(2, 122, 12, 0.856);
+}
+.footer-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-logo{
+    text-decoration: none;
+    color:#fff;
+    font-family: Ubuntu;
+    font-size: 40px;
+    font-weight: 700;
+}
+.footer-phone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.foot-phone{
+    color:#fff;
+    cursor: pointer;
+}
+.foot-phone:hover{
+    color:orangered;
+}
+.door-materials{
+    text-align: center;
+    padding-top: 10px;
+    background: rgba(78,190,254,1);
+    background: -moz-linear-gradient(left, rgba(78,190,254,1) 0%, rgba(55,143,217,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(78,190,254,1)), color-stop(100%, rgba(55,143,217,1)));
+    background: -webkit-linear-gradient(left, rgba(78,190,254,1) 0%, rgba(55,143,217,1) 100%);
+    background: -o-linear-gradient(left, rgba(78,190,254,1) 0%, rgba(55,143,217,1) 100%);
+    background: -ms-linear-gradient(left, rgba(78,190,254,1) 0%, rgba(55,143,217,1) 100%);
+    background: linear-gradient(to right, rgba(78,190,254,1) 0%, rgba(55,143,217,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ebefe', endColorstr='#378fd9', GradientType=1 );
+}
+.interior-blocks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.interior-block{
+    padding-top: 25px;
+    flex-basis: 25%;
+}
+.img-block img{
+    cursor: pointer;
+    width: 200px;
+    height: 400px;
+}
+.img-decsc{
+    padding-top: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    color: orangered;
+    font-size: 22px;
+    font-weight: 700;
+}
+.block-img img{
+    width: 100%;
+}
+.wind{
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-top: 10px;
+    background: rgba(78,190,254,1);
+    background: -moz-linear-gradient(left, rgba(78,190,254,1) 0%, rgba(55,143,217,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(78,190,254,1)), color-stop(100%, rgba(55,143,217,1)));
+    background: -webkit-linear-gradient(left, rgba(78,190,254,1) 0%, rgba(55,143,217,1) 100%);
+    background: -o-linear-gradient(left, rgba(78,190,254,1) 0%, rgba(55,143,217,1) 100%);
+    background: -ms-linear-gradient(left, rgba(78,190,254,1) 0%, rgba(55,143,217,1) 100%);
+    background: linear-gradient(to right, rgba(78,190,254,1) 0%, rgba(55,143,217,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ebefe', endColorstr='#378fd9', GradientType=1 );
+}
+.wind-blocks{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;;
+}
+.wind-block{
+    flex-basis: 50%;
+    padding-top: 50px;
+}
+.wind-block img{
+    width:350px;
+    height:300px;
+}
+.wind-descr{
+    margin-top: 160px;
+    font-family: Ubuntu;
+    font-size: 52px;
+    font-weight: 700;
+    color: #fff;
+}
+
+
+@media screen and (max-width: 1200px){
+    .container{
+        width: 960px;
+    }
+    .header-text{
+        margin-top: 90px;
+        font-size: 40px;
+    }
+    .header-text_imp{
+        font-size: 24px;
+    }
+  
+}
+@media screen and (max-width: 992px){
+    .container{
+        width: 720px;
+    }
+    .adv-block{
+        flex-basis: 50%;
+        padding-top: 20px;
+     }
+}
+@media screen and (max-width: 768px){
+    .container{
+        width: 540px;
+    }
+    .menu-logo{
+        font-size: 34px;
+    }
+    .phone{
+        font-size: 20px;
+    }
+    .header-text{
+        font-size: 30px;
+    }
+    .header-text_imp{
+        font-size: 18px;
+    }
+    .btn{
+        margin-bottom: 60px;
+        color: #fff;
+        font-family: "Montserrat - Black";
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 25px;
+        background-color: #58fa18;
+        padding: 10px 35px 11px 35px;
+        border: none;
+        border-radius: 4px;
+        font-weight: bold;
+        transition: all 0.6s ease;
+    }
+    .adv-title{
+        font-size: 30px;
+    }
+    .adv-imp{
+        font-size: 18px;
+    }
+    .adv-text{
+        padding-top: 14px;
+        color: #201b2d;
+        font-size: 14px;
+        font-weight: 500;
+        color:#fff;
+    }
+    .cons-text{
+        font-size: 38px;
+        font-weight: 700;
+    }
+    .cons-text_imp{
+        color: rgba(2, 122, 12, 0.856);
+        padding-top: 30px;
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .cons-btn{
+        font-size: 22px;
+        font-weight: 500;
+    }
+    input{
+        width: 345px;
+        height: 56px;
+        margin-top: 15px;
+        font-size: 24px;
+    }
+    .footer-logo{
+        font-size: 34px;
+    }
+    .wind-block img{
+        width: 200px;
+        height: 200px;
+    }
+    
+    
+
+}
+@media screen and (max-width: 576px){
+    .container{
+        width: 260px;
+    }
+    .menu-logo{
+        font-size: 20px;
+    }
+    .phone{
+        font-size: 14px;
+    }
+    .header-text{
+        font-size: 24px;
+    }
+    .header-text_imp{
+        font-size: 16px;
+    }
+    .btn{
+        margin-bottom: 60px;
+        color: #fff;
+        font-family: "Montserrat - Black";
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 25px;
+        background-color: #58fa18;
+        padding: 8px 32px 9px 32px;
+        border: none;
+        border-radius: 4px;
+        font-weight: bold;
+        transition: all 0.6s ease;
+    }
+    .adv-title{
+        font-size: 26px;
+    }
+    .adv-imp{
+        font-size: 16px;
+    }
+    .adv-text{
+        padding-top: 8px;
+        color: #201b2d;
+        font-size: 12px;
+        font-weight: 500;
+        color:#fff;
+    }
+    .adv-blocks{
+        padding-top: 10px;
+    }
+    .adv-block{
+        flex-basis: 100%;
+    }
+    .advantages{
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+    .cons-text{
+        
+        font-size: 38px;
+        font-weight: 700;
+    }
+    .cons-text_imp{
+        
+        padding-top: 30px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .cons-btn{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    input{
+        
+        width: 245px;
+        height: 56px;
+        margin-top: 15px;
+        font-size: 24px;
+    }
+    .footer-logo{
+            font-size: 20px;
+    }
+    .img-block img{
+        cursor: pointer;
+        width: 100px;
+        height: 200px;
+    }
+    .img-decsc{
+        font-size: 12px;
+    }
+
+}
+
+
